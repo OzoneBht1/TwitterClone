@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Roboto", "sans-serif"],
+        mono: ["Roboto Mono", "monospace"],
       },
       screens: {
         lg: "1385px",

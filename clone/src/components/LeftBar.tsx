@@ -50,7 +50,7 @@ const NAV_ELEMENTS_MAP = [
 
 const LeftBar = () => {
   return (
-    <div className="flex m-0 justify-end sticky top-0 left-0 bg-black text-white h-screen w-1/5 lg:w-2/7">
+    <div className="flex m-0 justify-end sticky top-0 left-0 bg-black text-white h-screen w-1/5 lg:w-1/4">
       <div className="flex flex-col justify-between h-full w-20 lg:w-64 self-end p-3">
         <ul className="flex flex-col items-start">
           <li className="flex w-full p-3 gap-2 items-center">
@@ -75,10 +75,10 @@ const LeftBar = () => {
         <div className="flex self-end lg:self-auto items-center gap-2">
           <UserCircleIcon className="h-10 w-10 lg:h-12 lg:w-12  white" />
           <div className="flex-col ">
-            <h2 className="text-base hidden lg:block font-mono font-extralight">
+            <h2 className="text-base hidden lg:block font-sans font-extralight">
               OzoneBht
             </h2>
-            <h2 className="text-sm hidden lg:block font-mono font-extralight text-slate-500">
+            <h2 className="text-sm hidden lg:block font-sans font-extralight text-slate-500">
               @Ozone_Bhattarai
             </h2>
           </div>

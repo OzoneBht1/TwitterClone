@@ -12,9 +12,9 @@ interface ILeftBarElementProps {
 
 const LeftBarELement = ({ title, Icon }: ILeftBarElementProps) => {
   return (
-    <li className="flex w-full p-3 gap-2 items-center  hover:bg-violet-600 hover:cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+    <li className="flex w-full p-3 gap-2 items-center  hover:bg-blue-400 hover:cursor-pointer active:bg-blue-400 focus:outline-none focus:ring focus:bg-blue-400">
       <Icon className="h-8 w-8 lg:h-6 lg:w-6  white" />
-      <h2 className="text-2xl hidden lg:block font-mono font-extralight">
+      <h2 className="text-2xl hidden lg:block font-sans font-extralight">
         {title}
       </h2>
     </li>

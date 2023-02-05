@@ -1,7 +1,16 @@
 import React from "react";
+import Tweet from "./Tweet";
 
 const Feed = () => {
-  return <div>Feed</div>;
+  return (
+    <>
+      <Tweet />
+      <Tweet />
+      <Tweet />
+      <Tweet />
+      <Tweet />
+    </>
+  );
 };
 
 export default Feed;

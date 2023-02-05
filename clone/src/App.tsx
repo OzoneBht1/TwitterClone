@@ -10,7 +10,6 @@ function App() {
   return (
     <div className=" flex w-full">
       <LeftBar />
-      <HeaderMenu />
       <MainSection />
       <RightBar />
     </div>
