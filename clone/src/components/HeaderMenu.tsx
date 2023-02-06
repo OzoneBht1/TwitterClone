@@ -7,7 +7,7 @@ const HeaderMenu = () => {
   const inactiveClass = "border-b-4 border-transparent absolute left-1/2 top";
 
   return (
-    <div>
+    <div className="sticky top-0 left-0 z-10 opacity-100 backdrop-filter backdrop-blur-lg">
       <h1 className="font-bold text-2xl mt-4 mb-6"> Home</h1>
       <div className="flex justify-between text-center px-10">
         <div
@@ -25,7 +25,7 @@ const HeaderMenu = () => {
           </p>
         </div>
       </div>
-      <hr className="mt-8 border-slate-200"></hr>
+      <hr className="mt-8 border-slate-200 border-opacity-50"></hr>
     </div>
   );
 };

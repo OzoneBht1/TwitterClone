@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         lg: "1385px",
       },
+      colors: {
+        rightbar: "#202327",
+      },
     },
   },
   plugins: [],
